@@ -1,0 +1,29 @@
+main{
+    .container{
+        .access{
+            display: flex;
+            padding: 50px 0;
+            .left{
+                width: 50%;
+                h1{
+                    font-size: $title-text-size;
+                    padding-bottom: 10px;
+                }
+                p{
+                    font-size: $standard-text-size;
+                    padding-bottom: 40px;
+                }
+                button{
+                    @include primary-button;
+                    margin-bottom: 10px;
+                }
+            }
+            .right{
+                width: 50%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

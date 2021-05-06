@@ -1,5 +1,10 @@
 nav{
     @include space-between;
+    border-bottom: 1px solid $page-secondary-color;
+    padding: 20px 0;
+    img{
+        width: 200px;
+    }
     li{
         list-style-type: none;
         display: inline-block;
