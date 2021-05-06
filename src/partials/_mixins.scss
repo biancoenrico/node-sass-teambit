@@ -1,0 +1,18 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin secondary-button{
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid $button-color;
+    color: $button-color;
+    background-color: $secondary-button-color;
+}

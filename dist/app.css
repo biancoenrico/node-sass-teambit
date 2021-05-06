@@ -1,1 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+nav li a {
+  color: #58402c;
+  text-decoration: none;
+}
+nav li button {
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #2e4790;
+  color: #2e4790;
+  background-color: white;
+}

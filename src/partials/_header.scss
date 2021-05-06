@@ -1,0 +1,15 @@
+nav{
+    @include space-between;
+    li{
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 5px;
+        a{
+            color: $page-secondary-color;
+            text-decoration: none;
+        }
+        button{
+            @include secondary-button
+        }
+    }
+}
