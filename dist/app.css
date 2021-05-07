@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #58402c;
+  color: #4b4a5a;
 }
 
 .container {
@@ -14,7 +14,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #58402c;
+  border-bottom: 1px solid #4b4a5a;
   padding: 20px 0;
 }
 nav img {
@@ -26,7 +26,7 @@ nav li {
   margin: 0 5px;
 }
 nav li a {
-  color: #58402c;
+  color: #4b4a5a;
   text-decoration: none;
 }
 nav li button {
@@ -38,22 +38,22 @@ nav li button {
   background-color: white;
 }
 
-main .container .access {
+.access {
   display: flex;
   padding: 50px 0;
 }
-main .container .access .left {
+.access .left {
   width: 50%;
 }
-main .container .access .left h1 {
+.access .left h1 {
   font-size: 44px;
   padding-bottom: 10px;
 }
-main .container .access .left p {
+.access .left p {
   font-size: 18px;
   padding-bottom: 40px;
 }
-main .container .access .left button {
+.access .left button {
   padding: 5px 10px;
   outline: none;
   border-radius: 5px;
@@ -62,9 +62,49 @@ main .container .access .left button {
   background-color: #2e4790;
   margin-bottom: 10px;
 }
-main .container .access .right {
+.access .left span {
+  margin: 0 5px;
+}
+.access .right {
   width: 50%;
 }
-main .container .access .right img {
+.access .right img {
   width: 100%;
+}
+
+.traditional {
+  margin: auto;
+  background-color: #0414b3;
+  padding: 50px 0;
+}
+.traditional .no-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.traditional .no-feedback img {
+  width: 150px;
+}
+.traditional .student {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+}
+.traditional .student img {
+  width: 35%;
+}
+.traditional .feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.traditional .feedback div img {
+  height: 100px;
+}
+
+.learn .images-learn {
+  display: flex;
 }

@@ -8,6 +8,17 @@
     align-items: center;
     justify-content: space-between;
 }
+@mixin space-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 @mixin primary-button{
     padding: 5px 10px;
     outline: none;

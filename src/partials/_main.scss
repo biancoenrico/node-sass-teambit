@@ -1,29 +1,66 @@
-main{
-    .container{
-        .access{
-            display: flex;
-            padding: 50px 0;
-            .left{
-                width: 50%;
-                h1{
-                    font-size: $title-text-size;
-                    padding-bottom: 10px;
-                }
-                p{
-                    font-size: $standard-text-size;
-                    padding-bottom: 40px;
-                }
-                button{
-                    @include primary-button;
-                    margin-bottom: 10px;
-                }
-            }
-            .right{
-                width: 50%;
-                img{
-                    width: 100%;
-                }
+.access{
+    display: flex;
+    padding: 50px 0;
+    .left{
+        width: 50%;
+        h1{
+            font-size: $title-text-size;
+            padding-bottom: 10px;
+        }
+        p{
+            font-size: $standard-text-size;
+            padding-bottom: 40px;
+        }
+        button{
+            @include primary-button;
+            margin-bottom: 10px;
+        }
+        span{
+            margin: 0 5px;
+        }
+    }
+    .right{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+}
+.traditional{
+    margin: auto;
+    background-color: $page-primay-color;
+    padding: 50px 0;
+
+    .no-feedback{
+        @include space-around;
+        text-align: center;
+
+        img{
+            width: 150px;
+        }
+    }
+    .student{
+        @include flex-center;
+        margin: 100px 0;
+        
+        img{
+            width: 35%;
+        }
+    }
+
+    .feedback{
+        @include space-around;
+        text-align: center;
+        div{
+            img{
+                height: 100px;
             }
         }
+    }
+}
+.learn{
+    .images-learn{
+        display: flex;
+
     }
 }
