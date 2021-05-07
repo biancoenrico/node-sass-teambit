@@ -108,3 +108,52 @@ nav li button {
 .learn .images-learn {
   display: flex;
 }
+.learn .images-learn div {
+  width: 50%;
+  padding: 50px;
+}
+.learn .images-learn div img {
+  width: 100%;
+}
+.learn .images-learn div h2 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.learn .images-learn div span {
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+.learn .images-learn div a {
+  color: #0e14ee;
+  padding-top: 30px;
+}
+.learn .images-learn .mini {
+  width: 30%;
+}
+
+.learn .images-learn.reverse {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.learn .images-learn.reverse div {
+  width: 50%;
+  padding: 50px;
+}
+.learn .images-learn.reverse div img {
+  width: 100%;
+}
+.learn .images-learn.reverse .mini {
+  width: 30%;
+}
+.learn .images-learn.reverse .mini h2 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.learn .images-learn.reverse .mini span {
+  font-size: 18px;
+}
+.learn .images-learn.reverse .mini a {
+  color: #0e14ee;
+  padding-top: 30px;
+}

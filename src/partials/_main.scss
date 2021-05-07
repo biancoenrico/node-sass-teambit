@@ -61,6 +61,54 @@
 .learn{
     .images-learn{
         display: flex;
-
+        div{
+            width: 50%;
+            padding: 50px;
+            img{
+                width: 100%;
+            }
+            h2{
+                font-size: $secondary-title-text-sixe;
+                margin-bottom: 50px;
+            }
+            span{
+                font-size: $standard-text-size;
+                padding-bottom: 50px;
+            }
+            a{
+                color: $page-third-color;
+                padding-top: 30px;
+            }
+        }
+        .mini{
+            width:30%
+        }
+    }
+}
+.learn{
+    .images-learn.reverse{
+        @include reverse;
+        div{
+            width: 50%;
+            padding: 50px;
+            img{
+                width: 100%;
+            }
+            
+        }
+        .mini{
+            width:30%;
+            h2{
+                font-size: $secondary-title-text-sixe;
+                margin-bottom: 50px;
+            }
+            span{
+                font-size: $standard-text-size;
+            }
+            a{
+                color: $page-third-color;
+                padding-top: 30px;
+            }
+        }
     }
 }
